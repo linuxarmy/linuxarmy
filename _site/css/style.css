@@ -1,0 +1,152 @@
+/*==========================================================
+============================================================
+DESIGNED BY MUTSINZI, BITITAWEHO & GANZA
+============================================================
+============================================================
+*/
+
+html, body{
+height: 100%;
+margin: 0;
+padding: 0;
+}
+body{
+color: #fff !important;
+background-color: #444444 !important;
+}
+
+/* default layout styling */
+
+@media only screen and (max-width: 1080px){
+.main-wrap{
+border: none !important;
+}
+}
+a:hover{
+cursor:pointer;
+}
+.row{
+margin:0 !important;
+}
+.header-wrap{
+max-width: 1080px;
+margin: 0 auto;
+height:100px;
+padding: 0 15px;
+}
+.header-wrap h2{
+font-weight: 800;
+}
+.header-wrap ul{
+list-style-type: none;
+padding: 0 !important;
+}
+.header-wrap ul li{
+display: inline;
+padding: 10px;
+}
+.header-wrap .right-side{
+height: 100px;
+padding-top: 40px !important;
+}
+.main-wrap{
+margin-bottom: 50px !important;
+max-width: 1080px;
+padding: 20px 0 !important;
+margin: 10px 0 !important;
+clear: both;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+background-color: #222222;
+border: 1px solid #a8a8a8;
+margin: 0 auto !important;
+}
+
+/* end default layout styling */
+
+/* nav styling */
+nav{
+margin-bottom: 10px;
+padding: 0 15px;
+}
+nav a{
+color: #fff !important;
+}
+nav .col-md-2{
+padding: 0 !important;
+}
+nav .row{
+max-height: 100px;
+}
+nav button{
+width:100%;
+border-radius: 0 !important;
+}
+#nav-button{
+background-color: transparent !important;
+color:#fff;
+}
+nav button{
+text-transform: uppercase;
+}
+@media only screen and (max-width: 991px){
+nav{
+margin-bottom: 100px;
+}
+}
+/* end nav styling */
+
+/* index page styling */
+.index-wrap{
+padding: 0 15px 40px 15px;
+}
+.large-feature{
+padding-top: 0 !important;
+}
+.large-feature .jumbotron{
+position: relative;
+background-image: url('../img/giphy.gif');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 350px;
+border-radius: 0 !important;
+}
+.large-feature .welcome-note-wrap{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100px;
+height: 50px;
+max-width: 35%;
+}
+.welcome-note-wrap button{
+height:50px;
+border-radius: 0 !important;
+}
+
+.index-wrap section{
+min-height:350px;
+padding-top: 40px;
+}
+.project-thumbs .row{
+height: 350px;
+}
+.project-thumbs .col-md-4{
+padding: 0 10px;
+}
+
+section h2{
+text-align: center;
+}
+
+.newsletter{
+min-height: 100px !important;
+text-align: center;
+max-width: 700px;
+margin: 0 auto;
+}
+
+
+
+/* end index page styling */

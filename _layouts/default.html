@@ -1,0 +1,47 @@
+<!--this is the default layout -->
+<!Doctype html>
+<html>
+{% include head.html %}
+
+<!--begin body-->
+<body>
+
+
+<!-- header -->
+<header class="header-wrap">
+<ul class="left-side pull-left">
+<li>
+<h2>TEST TITLE</h2>
+</li>
+</ul>
+<ul class="right-side pull-right">
+<li><i class="fa fa-search"></i>
+<li><i class="fa fa-github"></i></li>
+<li class="hidden fa fa-bars"></li>
+</ul>
+</header>
+<!--end header -->
+
+<!-- container fluid wrap -->
+<div class="container-fluid main-wrap">
+
+
+
+<!-- nav -->
+{% include nav.html %}
+<!-- end nav -->
+
+<!-- content -->
+{{content}}
+
+
+</div>
+<!-- end container-fluid wrap-->
+
+{% include footer.html %}
+
+</body>
+<!--end body-->
+
+
+</html>

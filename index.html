@@ -1,0 +1,66 @@
+---
+layout: default
+title: Sharing the best of the Linux experience
+---
+
+<div class="index-wrap">
+
+<section class="large-feature">
+<div class="jumbotron">
+
+<div class="welcome-note-wrap">
+<button class="btn btn-primary">UPDATE: This site will launch soon.</button>
+</div>
+
+</div>
+</section>
+
+<section class="projects-thumbs bg-primary">
+<h2>Our Projects</h2>
+<div class="row">
+<div class="col-md-4">
+<div class="embedded-content">
+</div>
+</div>
+<div class="col-md-4">
+<div class="embedded-content">
+</div>
+</div>
+<div class="col-md-4">
+<div class="embedded-content">
+</div>
+</div>
+</div>
+</section>
+
+<section class="blog-post-wrap bg-success">
+<h2>Blog</h2>
+<ol class="blog-list">
+{% for post in site.posts limit:8 %}
+<div class="col-md-6">
+<li>{{post.title}}</li>
+<div class="details-wrap">
+<p>{{post.description}}</p>
+</div>
+</div>
+{% endfor %}
+</ol>
+</section>
+
+<section class="newsletter">
+<div class="heading-wrap">
+<h2>Subscribe to our Newsletter</h2>
+</div>
+<div class="form-wrap">
+<form action="">
+<div class="input-group">
+<input class="form-control" name="email" placeholder="Enter your email address" type="email" required>
+<span class="input-group-btn">
+<button class="btn btn-success btn-default" type="submit">Subscribe</button>
+</span>
+</div>
+</form>
+</div>
+</section>
+
+</div>
