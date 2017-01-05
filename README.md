@@ -1,2 +1,2 @@
 # linuxarmy
-Linux Army is a website made in Rwanda that aims to create a great Linux community in the African region
+Linux Army is a Linux User Community based in Rwanda
