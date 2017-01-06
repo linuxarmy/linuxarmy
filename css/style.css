@@ -34,6 +34,12 @@ margin: 0 auto;
 height:100px;
 padding: 0 15px;
 }
+.header-wrap a{
+color: #fff;
+}
+.header-wrap a:hover{
+color:#a8a8a8;
+}
 .header-wrap h2{
 font-weight: 800;
 }
@@ -91,7 +97,7 @@ text-transform: uppercase;
 }
 @media only screen and (max-width: 991px){
 nav{
-margin-bottom: 100px;
+margin-bottom: 100px !important;
 }
 }
 /* end nav styling */
