@@ -2,4 +2,5 @@ title:
 input: GFM
 description: Sharing the best of the Linux Experience
 highlighter: rouge
+exclude: ['README.md']
 
