@@ -25,21 +25,16 @@
 <header class="header-wrap">
 <ul class="left-side pull-left">
 <li>
-<h2>TEST TITLE</h2>
+<a class="header-link" href="/index.html"><h2>Ukweli</h2></a>
 </li>
 </ul>
 <ul class="right-side pull-right">
 <li><i class="fa fa-search"></i>
-<li><i class="fa fa-github"></i></li>
+<li><a href="https://github.com/linuxarmy"><i class="fa fa-github"></i></a></li>
 <li class="hidden fa fa-bars"></li>
 </ul>
 </header>
 <!--end header -->
-
-<!-- container fluid wrap -->
-<div class="container-fluid main-wrap">
-
-
 
 <!-- nav -->
 <nav>
@@ -65,8 +60,21 @@
 </div>
 </nav>
 
+<style>
+nav{
+border:1px solid;
+border-radius:5px;
+clear:both;
+max-width:1080px;
+padding:0;
+margin: 10px auto;
+}
+</style>
+
 <!-- end nav -->
 
+<!-- container fluid wrap -->
+<div class="container-fluid main-wrap">
 <!-- content -->
 <div class="index-wrap">
 
@@ -81,27 +89,52 @@
 </section>
 
 <section class="projects-thumbs bg-primary">
-<h2>Our Projects</h2>
+<h2 class="section-header">Our Projects</h2>
 <div class="row">
+
+
 <div class="col-md-4">
-<div class="embedded-content">
+<a href="/projects/2017/01/17/scratch.html">
+<div class="embedded-content" style="background-image: url('img/scratch.jpg')">
 </div>
+</a>
 </div>
+
+
 <div class="col-md-4">
-<div class="embedded-content">
+<a href="/projects/2017/01/17/linux-talks.html">
+<div class="embedded-content" style="background-image: url('img/linux_talks.png')">
 </div>
+</a>
 </div>
+
+
 <div class="col-md-4">
-<div class="embedded-content">
+<a href="/projects/2017/01/17/installment-party.html">
+<div class="embedded-content" style="background-image: url('img/lip.png')">
 </div>
+</a>
 </div>
+
+
+<div class="col-md-4">
+<a href="/projects/2017/01/17/hackathons.html">
+<div class="embedded-content" style="background-image: url('img/hackathons.png')">
+</div>
+</a>
+</div>
+
+
+
 </div>
 </section>
 
 <section class="blog-post-wrap bg-success">
-<h2>Blog</h2>
+<h2 class="section-header">Blog</h2>
 <ol class="blog-list">
+<div class="row">
 
+</div>
 </ol>
 </section>
 
@@ -138,7 +171,7 @@ Copyright
 </div>
 <div class="col-md-4 col-xs-4 social-links">
 <ul>
-<li><a href=""><i class="fa fa-github fa-2x"></i></a></li>
+<li><a target="_blank" href="https://github.com/linuxarmy"><i class="fa fa-github fa-2x"></i></a></li>
 </ul>
 </div>
 </div>
