@@ -16,27 +16,27 @@ title: Sharing the best of the Linux experience
 </section>
 
 <section class="projects-thumbs bg-primary">
-<h2>Our Projects</h2>
+<h2 class="section-header">Our Projects</h2>
 <div class="row">
+
+{% for post in site.categories.projects %}
 <div class="col-md-4">
-<div class="embedded-content">
+<a href="{{post.url}}">
+<div class="embedded-content" style="background-image: url('img/{{post.image}}')">
 </div>
+</a>
 </div>
-<div class="col-md-4">
-<div class="embedded-content">
-</div>
-</div>
-<div class="col-md-4">
-<div class="embedded-content">
-</div>
-</div>
+
+{% endfor %}
+
 </div>
 </section>
 
 <section class="blog-post-wrap bg-success">
-<h2>Blog</h2>
+<h2 class="section-header">Blog</h2>
 <ol class="blog-list">
-{% for post in site.posts limit:8 %}
+<div class="row">
+{% for post in site.categories.blog limit:8 %}
 <div class="col-md-6">
 <li>{{post.title}}</li>
 <div class="details-wrap">
@@ -44,6 +44,7 @@ title: Sharing the best of the Linux experience
 </div>
 </div>
 {% endfor %}
+</div>
 </ol>
 </section>
 
