@@ -6,6 +6,7 @@ DESIGNED BY MUTSINZI
 */
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
 @import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 html, body{
 height: 100%;
@@ -29,7 +30,7 @@ cursor:pointer;
 }
 
 .section-header{
-font-family: 'Bungee Shade', cursive;
+font-family: 'Ubuntu', sans-serif;
 }
 .row{
 margin:0 !important;
@@ -44,7 +45,8 @@ padding: 0 15px;
 color: #fff;
 }
 .header-link{
-font-family: 'Bungee Shade', cursive;
+font-family: 'Ubuntu', sans-serif !Important;
+text-transform: uppercase;
 }
 .header-link:hover{
 text-decoration: none;
@@ -76,7 +78,6 @@ clear: both;
 border-top-left-radius:5px;
 border-top-right-radius:5px;
 background-color: #222222;
-border: 1px solid #a8a8a8;
 margin: 0 auto !important;
 }
 
