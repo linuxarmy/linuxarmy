@@ -43,19 +43,19 @@
 <a href="/index.html"><button id="nav-button" class="btn btn-default">home</button></a>
 </div>
 <div class="col-md-2">
-<a href="#"><button id="nav-button" class="btn btn-default">projects</button></a>
+<a href="/index.html#projects"><button id="nav-button" class="page-scroll btn btn-default">projects</button></a>
 </div>
 <div class="col-md-2">
-<a href="#"><button id="nav-button" class="btn btn-default">forum</button></a>
+<a href="http://ukweli.africamotion.net/"><button id="nav-button" class="btn btn-default">forum</button></a>
 </div>
 <div class="col-md-2">
-<a href="#"><button id="nav-button" class="btn btn-default">blog</button></a>
+<a href="/index.html#blog"><button id="nav-button" class="page-scroll btn btn-default">blog</button></a>
 </div>
 <div class="col-md-2">
-<a href="#"><button id="nav-button" class="btn btn-default">get involved</button></a>
+<a href="/blog/2017/01/30/get-involved.html"><button id="nav-button" class="btn btn-default">get involved</button></a>
 </div>
 <div class="col-md-2">
-<a href="#"><button id="nav-button" class="btn btn-default">about</button></a>
+<a href="/blog/2017/01/29/welcome-to-ukweli.html"><button id="nav-button" class="btn btn-default">about</button></a>
 </div>
 </div>
 </nav>
@@ -86,51 +86,94 @@ margin: 10px auto;
 </div>
 </section>
 
-<section class="projects-thumbs bg-primary">
+<section id="projects" class="projects-thumbs bg-primary">
 <h2 class="section-header">Our Projects</h2>
-<div class="row">
+<hr/>
 
-
+<div class="row projects-wrap">
 <div class="col-md-4">
 <a href="/projects/2017/01/17/scratch.html">
 <div class="embedded-content" style="background-image: url('img/scratch.jpg')">
 </div>
 </a>
 </div>
+<div class="col-md-8">
+<div class="embedded-text">
+<p>Programming is a superpower. The scratch programming language introduces programming concepts to young people in a fun and interactive way.</p>
+<a href="/projects/2017/01/17/scratch.html"><button class="btn btn-outline">More <i class="fa fa-plus"></i></button></a>
+</div>
+</div>
+</div>
+<hr/>
 
-
+<div class="row projects-wrap">
 <div class="col-md-4">
 <a href="/projects/2017/01/17/linux-talks.html">
 <div class="embedded-content" style="background-image: url('img/linux_talks.png')">
 </div>
 </a>
 </div>
+<div class="col-md-8">
+<div class="embedded-text">
+<p>At Linux Talks, we offer tips, tutorials and project ideas in order to maximize on your Linux Usage Experience</p>
+<a href="/projects/2017/01/17/linux-talks.html"><button class="btn btn-outline">More <i class="fa fa-plus"></i></button></a>
+</div>
+</div>
+</div>
+<hr/>
 
-
+<div class="row projects-wrap">
 <div class="col-md-4">
 <a href="/projects/2017/01/17/installment-party.html">
 <div class="embedded-content" style="background-image: url('img/lip.png')">
 </div>
 </a>
 </div>
+<div class="col-md-8">
+<div class="embedded-text">
+<p>There's no better way to meet Linux than to do it at a linux installment party.</p>
+<a href="/projects/2017/01/17/installment-party.html"><button class="btn btn-outline">More <i class="fa fa-plus"></i></button></a>
+</div>
+</div>
+</div>
+<hr/>
 
-
+<div class="row projects-wrap">
 <div class="col-md-4">
 <a href="/projects/2017/01/17/hackathons.html">
 <div class="embedded-content" style="background-image: url('img/hackathons.png')">
 </div>
 </a>
 </div>
-
-
-
+<div class="col-md-8">
+<div class="embedded-text">
+<p>Every 6 months we hold a hackathon to highlight the best of developer talent</p>
+<a href="/projects/2017/01/17/hackathons.html"><button class="btn btn-outline">More <i class="fa fa-plus"></i></button></a>
 </div>
+</div>
+</div>
+<hr/>
+
 </section>
 
-<section class="blog-post-wrap bg-success">
+<section id="blog" class="blog-post-wrap bg-success">
 <h2 class="section-header">Blog</h2>
 <ol class="blog-list">
 <div class="row">
+
+<div class="col-md-6">
+<a href="/blog/2017/01/30/get-involved.html"><li class="blog-post-title">How to Get Involved with our Movement</li></a>
+<div class="details-wrap">
+<p>By signing up for our newsletter and joining a forum, you essentially become a member of the Ukweli Community</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<a href="/blog/2017/01/29/welcome-to-ukweli.html"><li class="blog-post-title">Welcome to Ukweli</li></a>
+<div class="details-wrap">
+<p>Ukweli is a platform that was created to raise awareness of the resourcefulness of the linux operating system and to promote the use of free open source software otherwise known as FOSS</p>
+</div>
+</div>
 
 </div>
 </ol>
@@ -197,6 +240,11 @@ color: #fff;
 </style>
 
 
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/smooth.js"></script>
 </body>
 <!--end body-->
 
