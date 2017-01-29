@@ -14,6 +14,7 @@ margin: 0;
 padding: 0;
 }
 body{
+font-family: 'Ubuntu', helvetica;
 color: #fff !important;
 background-color: #444444 !important;
 }
@@ -31,6 +32,11 @@ cursor:pointer;
 
 .section-header{
 font-family: 'Ubuntu', sans-serif;
+padding-bottom: 30px !Important;
+}
+h1,h2,h3,h4,h5,h6{
+margin:0 !Important;
+padding:0;
 }
 .row{
 margin:0 !important;
@@ -156,11 +162,21 @@ height: 350px;
 .embedded-content{
 background-size: cover;
 background-repeat: no-repeat;
-height: 350px;
+height: 150px;
 margin-bottom: 15px;
 background-position: center center;
 }
+.embedded-text{
+height: 150px;
+color: #fff;
+max-width: 500px;
+font-size: 16px;
+}
 
+.projects-wrap{
+max-width:960px;
+margin: 0 auto !Important;
+}
 .project-thumbs a:hover{
 opacity: 0.7;
 transition: 0.5s ease-out;
@@ -175,6 +191,8 @@ padding: 0 10px;
 
 section h2{
 text-align: center;
+margin: 0;
+padding: 0;
 }
 
 .newsletter{
@@ -186,6 +204,14 @@ margin: 0 auto;
 
 .blog-post-wrap{
 color: #1f1f1f;
+}
+
+.blog-list .row{
+min-height: 300px;
+}
+.blog-list .details-wrap{
+text-align: justify;
+max-width: 80%;
 }
 
 
@@ -201,6 +227,9 @@ min-height: 400px;
 
 .post-header .row{
 height: 400px;
+max-width: 700px;
+margin-left: auto !Important;
+margin-right: auto !Important;
 }
 .post-header .post-img{
 height: 300px;
@@ -209,12 +238,20 @@ background-position: center center;
 background-repeat: no-repeat;
 }
 
+.post-meta{
+padding-top: 40px;
+}
 .embedded-post{
 min-height: 300px;
+max-width:700px;
+margin-left: auto !Important;
+margin-right: auto !Important;
+padding-left:15px;
+padding-right:15px;
 }
 
 .post-header h2{
-font-family: 'Bungee Shade', cursive;
+font-family: 'Ubuntu', helvetica;
 font-size: 40px !important;
 }
 
